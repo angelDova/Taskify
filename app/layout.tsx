@@ -6,7 +6,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Tasktify",
-  description: "Todo App",
+  description: "Task Manager App",
+  icons: {
+    icon: "/logo.svg",
+  },
 };
 
 export default function RootLayout({
